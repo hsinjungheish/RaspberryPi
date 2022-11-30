@@ -1,0 +1,17 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
+import os, sys
+
+i=True
+
+while i==True:
+    question=input('請輸入問題: ')
+
+    if question=='哪些台灣人曾獲諾貝爾獎?':
+        print('李遠哲')
+    elif question=='這附近有沒有日式料理?':
+        print('魚醬手作日式料理 地址:70041台南市中西區西門路二段412號')
+    elif question=='宵夜應該吃甚麼比較不會胖':
+        print('不要吃空熱量食物及少吃高油脂食物')
+    elif question=='結束提問':
+        i=False
